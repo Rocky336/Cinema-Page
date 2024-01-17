@@ -79,10 +79,9 @@ nav > button > a{
 
 .page > div > div{
     display: grid;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
     padding-left: 2%;
     overflow-y: auto;
-    height: fit-content;
 }
 
 .page > div > div > *{
