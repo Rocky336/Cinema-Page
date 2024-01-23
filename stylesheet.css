@@ -28,6 +28,7 @@ nav > button {
     margin: 0;
     text-align: center;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 nav > button:hover{
@@ -38,25 +39,11 @@ nav > button:active{
     background-color: #222E50;
 }
 
-nav > button > a{
-    appearance: inherit;
-    text-decoration: none;
-    color: initial;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 100%;
-}
-
 .pages-container{
-    display: block;
+    display: none;
     position: absolute;
     width: 100%;
     height: 40%;
-    visibility: hidden;
-}
-
-.pages-container:target{
-    visibility: visible;
 }
 
 .page{
@@ -92,18 +79,11 @@ nav > button > a{
     display: grid;
     grid-template-columns: 15% auto;
     background-color: #439A86;
-    /*border-top-style: dotted;
-    border-left-style: dotted;
-    border-right-style: dotted;*/
 }
 
 .page > span {
     display: block;
     background-color: #E9D985;
-    /*border-bottom-style: dotted;
-    border-left-style: dotted;
-    border-right-style: dotted;
-    border-top-style: dotted;*/
 }
 
 footer{
