@@ -1,0 +1,116 @@
+{
+    "0": [
+        {
+            "timing": "10:00 AM",
+            "title": "Adventure Time",
+            "plot": "Un gruppo di amici intraprende un'epica avventura per salvare la loro città natale da un malvagio villain."
+        },
+        {
+            "timing": "2:00 PM",
+            "title": "A Dog's Journey",
+            "plot": "Una commovente storia su un cane e il suo proprietario, che mette in mostra il potere dell'amicizia e della lealtà."
+        },
+        {
+            "timing": "6:00 PM",
+            "title": "Superhero Squad",
+            "plot": "Un emozionante film ricco di azione che vede un team di supereroi combattere contro supercriminali."
+        }
+    ],
+    "1": [
+        {
+            "timing": "11:30 AM",
+            "title": "Mission Impossible",
+            "plot": "Un emozionante film ricco di azione su una spia che deve salvare il mondo da una minaccia globale."
+        },
+        {
+            "timing": "4:00 PM",
+            "title": "Train of Love",
+            "plot": "Una commedia romantica che segue il viaggio di due sconosciuti che si incontrano su un treno e si innamorano."
+        },
+        {
+            "timing": "8:00 PM",
+            "title": "Midnight Mystery",
+            "plot": "Un mistero pieno di suspense ambientato nei vicoli bui di una città, dove i segreti si svelano a mezzanotte."
+        }
+    ],
+    "2": [
+        {
+            "timing": "1:00 PM",
+            "title": "Interstellar",
+            "plot": "Un'avventura di fantascienza in cui un gruppo di astronauti deve trovare un modo per sopravvivere su un pianeta lontano."
+        },
+        {
+            "timing": "6:30 PM",
+            "title": "Mysterious Town",
+            "plot": "Un avvincente mistero che svela la verità dietro una serie di eventi inspiegabili in una piccola città."
+        },
+        {
+            "timing": "9:00 PM",
+            "title": "The Haunting",
+            "plot": "Un film horror inquietante che ti porta in un viaggio terrificante attraverso una casa infestata."
+        }
+    ],
+    "3": [
+        {
+            "timing": "3:30 PM",
+            "title": "The Detective",
+            "plot": "Un thriller mozzafiato che ti tiene sul bordo della sedia mentre un detective risolve un complesso caso di omicidio."
+        },
+        {
+            "timing": "8:00 PM",
+            "title": "Choices",
+            "plot": "Un dramma stimolante che esplora le profondità delle emozioni umane e le scelte che facciamo nella vita."
+        }
+    ],
+    "4": [
+        {
+            "timing": "12:00 PM",
+            "title": "Animal Adventures",
+            "plot": "Un'avventura animata con un gruppo di animali parlanti in una missione per salvare il loro habitat in pericolo."
+        },
+        {
+            "timing": "5:30 PM",
+            "title": "Family Vacation",
+            "plot": "Una commedia esilarante che segue le disavventure di una famiglia disfunzionale in vacanza."
+        },
+        {
+            "timing": "9:00 PM",
+            "title": "Nightmare on Elm Street",
+            "plot": "Un classico film horror che introduce l'iconico personaggio Freddy Krueger, che tormenta i sogni delle persone."
+        }
+    ],
+    "5": [
+        {
+            "timing": "2:30 PM",
+            "title": "The Hero's Journey",
+            "plot": "Un epico film fantasy ambientato in un mondo magico, dove un giovane eroe deve compiere il suo destino e sconfiggere un antico male."
+        },
+        {
+            "timing": "7:00 PM",
+            "title": "War Heroes",
+            "plot": "Un avvincente dramma di guerra che rappresenta il coraggio e il sacrificio dei soldati sul campo di battaglia."
+        },
+        {
+            "timing": "10:30 PM",
+            "title": "Midnight Madness",
+            "plot": "Un'avventura emozionante a mezzanotte che porta un gruppo di amici in un viaggio selvaggio e imprevedibile."
+        }
+    ],
+    "6": [
+        {
+            "timing": "4:30 PM",
+            "title": "Dream Catcher",
+            "plot": "Un commovente film per tutta la famiglia sulla potenza dei sogni e l'importanza di non arrendersi mai."
+        },
+        {
+            "timing": "9:00 PM",
+            "title": "Race Against Time",
+            "plot": "Un thriller pieno di suspense che segue la corsa contro il tempo di un detective per catturare un famigerato criminale."
+        },
+        {
+            "timing": "11:30 PM",
+            "title": "Late Night Laughs",
+            "plot": "Uno spettacolo comico con i migliori comici che offrono battute esilaranti e performance divertenti."
+        }
+    ]
+}
