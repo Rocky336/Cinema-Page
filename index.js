@@ -10,7 +10,8 @@ async function setMovies() {
             pages.namedItem(key).innerHTML +='<div class="page">' +
             '<div><img src="https://picsum.photos/30'+(Number(key)+k)+'"><div>' +
             '<strong>'+dati[key][k].title+'</strong>'+
-            '<span>'+dati[key][k].plot+'</span></div></div>'+
+            '<span>Autore: '+dati[key][k].author+'</span>'+
+            '<span>Trama: '+dati[key][k].plot+'</span></div></div>'+
             '<span>'+dati[key][k].timing+'</span></div>'
         }
     }
