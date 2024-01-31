@@ -4,16 +4,23 @@ const data = new Date();
 const oggi = ((data.getDay() + 6) % 7)
 
 async function setMovies() {
-    const response  =    await fetch('./data.json');
+    const response  =    await fetch('https://www.sammasensei.it/scuola/movies/get-movies.php');
     const dati      =    await response.json();
-    for(let key in dati){
-        for(let k = 0;k<dati[key].length;k++){
-            pages.namedItem(key).innerHTML +='<div class="page">' +
-            '<div><img src="https://picsum.photos/30'+(Number(key)+k)+'"><div>' +
-            '<strong>'      +dati[key][k].title +'</strong>'+
-            '<span>Autore: '+dati[key][k].author+'</span>'+
-            '<span>Trama: ' +dati[key][k].plot  +'</span></div></div>'+
-            '<span>'        +dati[key][k].timing+'</span></div>'
+    for(let i = 0;i<dati.length;i++){
+        const page = document.createElement("div");
+        page.className = "page";
+        page.innerHTML = '<div><img src="'+dati[i].poster_url+'"><div>' +
+        '<strong>'      +dati[i].title  +'</strong>'+
+        '<span>Cast: '  +dati[i].cast   +'</span>'+
+        '<span>Trama: ' +dati[i].plot   +'</span></div></div>'+
+        '<span>'        +dati[i].showtimes+'</span>'
+        for(let j = 1;j<4;j++){
+            const clone = page.cloneNode(true);
+            pages.namedItem(j).appendChild(clone);
+            clone.firstChild.firstChild.addEventListener("click",()=>{
+                document.getElementById("imgprev").style.display = "block";
+                document.getElementById("imgprev").firstChild.src = dati[i].poster_url;
+            })
         }
     }
 }
