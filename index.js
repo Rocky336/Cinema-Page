@@ -1,5 +1,6 @@
 const pages = document.getElementsByClassName("pages-container");
-const buttons = document.getElementsByTagName("button");
+const buttons = document.getElementsByTagName("nav")[0].getElementsByTagName("button");
+const imgprev = document.getElementById("imgprev");
 const data = new Date();
 const oggi = ((data.getDay() + 6) % 7)
 
@@ -18,8 +19,8 @@ async function setMovies() {
             const clone = page.cloneNode(true);
             pages.namedItem(j).appendChild(clone);
             clone.firstChild.firstChild.addEventListener("click",()=>{
-                document.getElementById("imgprev").style.display = "block";
-                document.getElementById("imgprev").firstChild.src = dati[i].poster_url;
+                imgprev.style.display = "block";
+                imgprev.style.backgroundImage = "url("+dati[i].poster_url+")";
             })
         }
     }
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             pages.namedItem(i).style.display = "block";
         });
     }
+    imgprev.addEventListener("click",()=> imgprev.style.display = "none")
     setMovies();
     pages.namedItem(oggi).style.display = "block";
 });
